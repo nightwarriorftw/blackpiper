@@ -25,7 +25,7 @@ Let's go through a couple of difference between `celery` and `RQ` :
 
 - `RQ`is known for it's simplicity whereas `Celery` is known for it robustness.
 
-- `RQ` uses `redis` as a message broker, whereas `Celery` suports both `redis` and `rabbitMQ`. `Celery` has clear  won here.
+- `RQ` uses `redis` as a message broker, whereas `Celery` suports both `redis` and `rabbitMQ`. `Celery` has clearly won here.
 
 There are other differences as well, why don't you explore those on your own :)
 
