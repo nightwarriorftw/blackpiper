@@ -55,7 +55,7 @@ pip install -r requirements.txt
 
 #### 3. Setup Redis
 
-`RQ` uses `redis` as a meesage broker. So, it's important to have redis installed on your system.
+`RQ` uses `redis` as a message broker. So, it's important to have redis installed on your system.
 
 In case you don't have `redis` installed on your system. You can follow [this](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-ubuntu-20-04) to install `redis` on your system.
 
@@ -119,13 +119,13 @@ python manage.py runserver
 
 #### 7. Start RQ worker
 
-Open another new terminal and run the following command respectivley in both of them
+Open another new terminal and run the following command
 
 ```BASH
 python manage.py rqworker default
 ```
 
-The above command starts with rq default worker. There are lot of ways you can configure this. Change your `RQ` configuration depending upon your usecase. Refer, `django-rq` docs for this :)
+The above command will start rq default worker. There are lot of ways you can configure your rq workers. Change your `RQ` configuration depending upon your usecase. Refer, `django-rq` docs for this :)
 
 #### 8. Test the real
 
@@ -153,7 +153,7 @@ Do read the `django-rq` and `RQ` docs. It's pretty awesome :)
 
 - Github: [nightwarriorftw](https://github.com/nightwarriorftw)
 
-- Linkedin: [developer-aman-verma](https://linkedin.com/in/developer-aman-verma)
+- Linkedin: [nightwarriorftw](https://linkedin.com/in/nightwarriorftw)
 
 - Twitter: [nightwarriorftw](https://twitter.com/nightwarriorftw)
 
